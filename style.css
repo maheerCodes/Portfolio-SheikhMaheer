@@ -105,13 +105,13 @@ input{
 
 /* PARAGRRAPH SELACTION */
 
-
+/* Copy text background start*/
 ::selection {
     background-color: var(--paragrraphselaction);
     color: var(--colortext);
     text-shadow: none;
 }
-
+/* Copy text background end*/
 
 
 
