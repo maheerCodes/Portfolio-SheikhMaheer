@@ -986,7 +986,7 @@ p{
     width: 100%;
     border: none;
     border-radius: var(--pictureborderradious);
-    background-image: url(/WebPhoto/webPhotomain/mohammadAli.png);
+    background-image: url(/assets/WebPhoto/webPhotomain/mohammadAli.png);
     background-size: cover;
     background-color: transparent;
 }
@@ -1047,7 +1047,7 @@ p{
     width: 100%;
     border: none;
     border-radius: var(--pictureborderradious);
-    background-image: url(/WebPhoto/webPhotomain/mohammadAliCopy.png);
+    background-image: url(/assets/WebPhoto/webPhotomain/mohammadAliCopy.png);
     background-size: cover;
     background-color: transparent;
 }
@@ -1196,22 +1196,22 @@ h3{
 }
 
 .pic1{
-    background-image: url(WebPhoto/webPhotomain/Developer.jpg);
+    background-image: url(/assets/WebPhoto/webPhotomain/Developer.jpg);
     /* transform: rotate(3deg); */
 }
 
 .pic2{
-    background-image: url(WebPhoto/webPhotomain/webDevelopment.jpg);
+    background-image: url(/assets/WebPhoto/webPhotomain/webDevelopment.jpg);
     /* transform: rotate(-3deg); */
 }
 
 .pic3{
-    background-image: url(WebPhoto/webPhotomain/appDevelopment.jpg);
+    background-image: url(/assets/WebPhoto/webPhotomain/appDevelopment.jpg);
     /* transform: rotate(3deg); */
 }
 
 .pic4{
-    background-image: url(WebPhoto/webPhotomain/photographer.jpg);
+    background-image: url(/assets/WebPhoto/webPhotomain/photographer.jpg);
     /* transform: rotate(-3deg); */
 }
 
@@ -1422,7 +1422,7 @@ h3{
     border-radius: 1rem;
     margin: 1rem;
     padding: 0;
-    background-image: url(/WebPhoto/webPhotomain/freepik__expand__49141.jpg);
+    background-image: url(/assets/WebPhoto/webPhotomain/freepik__expand__49141.jpg);
     background-size: cover;
 }
 
