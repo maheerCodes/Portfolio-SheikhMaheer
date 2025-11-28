@@ -5,8 +5,6 @@
 
 <h2>The features what I included:</h2>
 
-<br>
-
 <h3>
 1. Add a new custom Scrollbar.
 2. Add a new  custom Cursor.
