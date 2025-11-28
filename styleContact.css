@@ -1,0 +1,116 @@
+/* CONTACT START HARE */
+#Contact{
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    flex-direction: row;
+    padding: 50px;
+}
+.mainContact{
+    background-color: #0c1521;
+    position: relative;
+    z-index: 1;
+    /* min-height: 305px;
+    max-height: 405px; */
+    /* width: 400px; */
+}
+.mainContact::after, .mainContact::before {
+    content: '';
+    position: absolute;
+    inset: -3px;
+    background: conic-gradient(from var(--angle), var(--coloroptional) 0deg 35deg, #0c1821 45deg 180deg, var(--coloroptional) 180deg 215deg, #0c1821 225deg 360deg);
+    z-index: -1;
+    animation: glowing-bordar 3.5s linear infinite;
+} 
+.mainContact::before{
+    z-index: -2;
+    filter: blur(20px);
+    opacity: 0.7;
+    animation: blur-effect 3.5s linear infinite, glowing-bordar 3.5s linear infinite;
+}
+/* .mainContact:hover::after{
+    animation: glowing-bordar 3.5s linear infinite;
+}
+.mainContact:hover::before{
+    animation: blur-effect 3.5s linear infinite, glowing-bordar 3.5s linear infinite;
+} */
+@keyframes blur-effect {
+    form{
+        filter: blur(20px);
+    } to {
+        filter: blur(19px);
+    }
+}
+@property --angle {
+    syntax: "<angle>";
+    initial-value: 0deg;
+    inherits: false;
+}
+@keyframes glowing-bordar {
+    from{
+        --angle: 0deg;
+    } to {
+        --angle: -360deg;
+    }
+}
+form{
+    background-color: #0c1521;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    row-gap: 20px;
+    position: relative;
+    z-index: 1;
+}
+.mainform{
+    background-color: transparent;
+}
+.h2hr{
+    background-color: transparent;
+}
+.h2hr h2 {
+    color: var(--colormain);
+    background-color: transparent;
+}
+.h2hr hr{
+    background-color: var(--coloroptional);
+    height: 1.5px;
+    border: none;
+}
+.name, .email, .subject, .massage{
+    background-color: transparent;
+}
+.name .input1, .email .input2, .subject .input3{
+    background-color: transparent;
+    border-radius: 0px 0px 5px 5px;
+    height: 25px;
+    font-size: 16px;
+    width: 400px;
+}
+.name .input1:focus, .email .input2:focus, .subject .input3:focus, .massage textarea:focus{
+    border: 2px solid var(--coloroptional);
+    border-radius: 3px;
+    outline: none;
+    padding: 3px 3px 3px 5px;
+    background-color: transparent;
+}
+.name p, .email p, .subject p, .massage p{
+    background-color: transparent;                                 
+    border-radius: 5px 5px 0px 0px;
+    height: 25px;
+    font-size: 13px;
+    width: 400px;
+    padding: 5px;
+}
+.massage textarea{
+    background-color: transparent;
+    border-radius: 0px 0px 5px 5px;
+    font-size: 16px;
+    max-width: 400px;
+    min-width: 400px;
+    min-height: 100PX;
+    max-height: 200PX;
+}
+/* #0c1521 */
+/* CONTACT END HARE */
