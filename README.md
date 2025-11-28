@@ -1,13 +1,13 @@
 # hi, its me Maheer.
-<h4>This is the first time that I created my first Portfolio.</h4>
+<h2>This is the first time that I created my first Portfolio.</h2>
 <pre>
 
-<h5>The features what I included:</h5>
+<h3>The features what I included:</h3>
 
-<br> 1. Add a new <h6>custom Scrollbar.</h6> 
-<br> 2. Add a new  <h6>custom Cursor.</h6> 
-<br> 3. Add a new <h6>Selection color.</h6> 
-<br> 4. Add a new <h6>Typewriter animation.</h6> 
-<br> 5. Add a <h6>contact section & many more.</h6>
+<br> 1. <h5>Add a new</h5> <h4>custom Scrollbar.</h4> 
+<br> 2. <h5>Add a new</h5>  <h4>custom Cursor.</h4> 
+<br> 3. <h5>Add a new</h5> <h4>Selection color.</h4> 
+<br> 4. <h5>Add a new</h5> <h4>Typewriter animation.</h4> 
+<br> 5. <h5>Add a</h5> <h4>contact section</h4> <h5>& many more.</h5>
 
 </pre>
