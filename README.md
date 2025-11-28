@@ -2,7 +2,6 @@
 <h1>hi, its me Maheer.</h1>
 <h1>This is the first time that I created my first Portfolio.</h1>
 
-<pre>
 <h2>
 The features what I included:
 <h3>
@@ -13,4 +12,3 @@ The features what I included:
 5. Add a contact section & many more.
 </h3>
 </h2>
-</pre>
