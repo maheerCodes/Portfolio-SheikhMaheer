@@ -7,10 +7,12 @@
 
 <br>
 
-<h3>1. Add a new custom Scrollbar.</h3>
-<h3>2. Add a new  custom Cursor.</h3>
-<h3>3. Add a new Selection color.</h3>
-<h3>4. Add a new Typewriter animation.</h3>
-<h3>5. Add a contact section & many more.</h3>
+<h3>
+1. Add a new custom Scrollbar.
+2. Add a new  custom Cursor.
+3. Add a new Selection color.
+4. Add a new Typewriter animation.
+5. Add a contact section & many more.
+</h3>
 
 </pre>
