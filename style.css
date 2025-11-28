@@ -3,9 +3,9 @@
     --coloroptional: #ff6a2a;
     --colortext: #ccc9dc;
     --pictureborderradious: 65% 35% 53% 47% / 33% 27% 73% 67% ;
-    --cursornormal: url(/customItem/customMouse.svg) 12 12, auto;
-    --cursorhand: url(/customItem/handPointer.svg) 12 12, auto;
-    --cursortext: url(/customItem/textMouse.svg) 12 12, auto;
+    --cursornormal: url(/assets/customItem/customMouse.svg) 12 12, auto;
+    --cursorhand: url(/assets/customItem/handPointer.svg) 12 12, auto;
+    --cursortext: url(/assets/customItem/textMouse.svg) 12 12, auto;
     --paragrraphselaction:  rgba(239, 131, 84, 0.9);
 }
 
