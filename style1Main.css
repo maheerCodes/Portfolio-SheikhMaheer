@@ -1,3 +1,11 @@
+@import url("/style2Header.css");
+@import url("/style3Home.css");
+@import url("/style4About.css");
+@import url("/style5Services.css");
+@import url("/style6MyWork.css");
+@import url("/style7Contact.css");
+@import url("/style8Footer.css");
+@import url("/style9Responsive.css");
 :root{
     --colormain: #ef8354;
     --coloroptional: #ff6a2a;
