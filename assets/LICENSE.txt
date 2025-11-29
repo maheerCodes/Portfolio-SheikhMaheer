@@ -3,10 +3,12 @@ All rights reserved.
 
 This folder contains images, logos, and textual assets that are NOT covered by the repository-wide MIT license. Do NOT reuse, redistribute, or publish these assets without written permission.
 
-Assets covered by this notice (examples — edit as needed):
+Assets covered by this notice:
+
+- assets/
 - assets/profile.jpg
 - assets/banner.png
 - assets/logo.svg
 - assets/about-text.md
 
-To request reuse permission contact: your-email@example.com
+To request reuse permission contact: sheikh.maheer@outlook.com
