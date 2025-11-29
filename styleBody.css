@@ -1,0 +1,533 @@
+/* BODY STARTS HARE */
+main{
+    background-color: #0c1821;
+    color: var(--colortext);
+    padding: 20px;
+    background-color: transparent;
+}
+section{
+    /* height: 105vh; */
+    width: 100%;
+    background-color: transparent;
+    margin-bottom: 10px;
+}
+.sectionHr{
+    background-color: #000000;
+    height: 1.5px;
+    border: none;
+}
+.bodyMain{
+    margin-top: 4rem;
+    height: 102vh;
+    width: 100%;
+    background-color: transparent;
+    color: var(--colortext);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+/* BODY MAIN LEFT STARTS HARE */
+.bodyMainLeft{
+    /* height: 100vh; */
+    max-width: 1000px;
+    background-color: transparent;
+    border: none;
+    color: var(--colortext);
+    position: absolute;
+    left: 25px;
+    z-index: 2;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+}
+.bodyMainLeft1{
+    max-width: 1000px;
+    display: block;
+    background-color: transparent;
+    text-shadow: none;
+}
+.bodyMainLeft1 h1{
+    background-color: transparent;
+    max-width: 600px;
+}
+.bodyMainLeft1 h1 span{
+    background-color: transparent;
+}
+.bodyMainLeftIm{
+    height: 28.8px;
+    max-width: 600px;
+    display: flex;
+    justify-content: start;
+    align-items: start;
+    flex-direction: column;
+    background-color: transparent;
+    overflow: hidden;
+}
+.bodyMainLeftIma{
+    background-color: transparent;
+    border-right: 2px solid transparent;
+    background-color: transparent;
+    display: flex;
+    justify-content: start;
+    align-items: flex-start;
+    flex-direction: column;
+}
+.downtoupprotection{
+    display: flex;
+    background-color: transparent;
+    justify-content: start;
+    align-items: flex-start;
+    flex-direction: column;
+}
+.div1p{
+    color: var(--colortext);
+    background-color: transparent;
+    max-width: 1000px;
+    position: relative;
+}
+.div1p:hover{
+    transform: scaleY(1.1);
+    /* left: 50px; */
+    text-shadow: 0 0 5px #000000;
+    transition: all 0.1s ease-in;
+}
+@keyframes Cursor {
+    from {
+        background-color: var(--colormain);
+    }
+    50% {
+        background-color: transparent;
+    }
+}
+#li1, #li2, #li3, #li4{
+    letter-spacing: 10px;
+    color: transparent;
+    background-color: transparent;
+    border-left: 3px solid transparent;
+    width: 100%;
+    white-space: nowrap;
+    overflow: hidden;
+    position: relative;
+    display: block;
+    text-shadow: none;
+}
+.child-1{
+    background-color: transparent;
+    display: flex;
+    justify-content: start;
+    align-items: flex-start;
+    flex-direction: column;
+}
+ul{
+    background-color: transparent;
+    list-style-type: none;
+}
+pre{
+    background-color: transparent;
+}
+.h2-1, .h2-2, .h2-3, .h2-4{
+    width: 100%;
+    overflow: auto;
+    background-color: transparent;
+    white-space: nowrap;
+    display: flex;
+    justify-content: start;
+    align-items: flex-start;
+    margin-top: 1px;
+    flex-direction: row;
+    position: relative;
+    animation: downtoup 20s infinite steps(1);
+}
+@keyframes downtoup {
+    0%{ 
+        top: 0px;
+    }
+    25%{
+        top: -30px;
+    }
+    50%{
+        top: -60px;
+    }
+    75%{
+        top: -90px;
+    }
+}
+p{
+    color: var(--colormain);
+}
+.child-child-1{
+    overflow: hidden;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    flex-direction: column;
+    row-gap: 1px;
+    background-color: transparent;
+}
+/* DEVELOPER TYPEWRITER START HARE */
+#li1::before, #li2::before, #li3::before, #li4::before{
+    overflow: hidden;
+    background-color: transparent;
+    background-image: linear-gradient(var(--colormain), var(--colormain));
+    color: transparent;
+    -webkit-background-clip: text;
+    text-shadow: none;
+}
+#li1::before{
+    content: 'Developer.';
+    height: 100%;
+    width: 100%;
+    /* background-color: #0c1821; */
+    border-right: 3px solid var(--colormain);
+    position: absolute;
+    margin: 0px;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    animation: cursor1 0.4s step-end infinite alternate, typing1 5s infinite;
+}
+@keyframes cursor1 {
+    50% { border-color: transparent; }
+}
+@keyframes typing1 {
+    0%{
+        /* transform: translateX(-2%); */
+        width: 0%;
+    }
+    8%{
+        /* transform: translateX(8%); */
+        width: 8%;
+    }
+    19%{
+        /* transform: translateX(19%); */
+        width: 19%;
+    }
+    30%{
+        /* transform: translateX(30%); */
+        width: 30%;
+    }
+    41%{
+        /* transform: translateX(41%); */
+        width: 41%;
+    }
+    48%{
+        /* transform: translateX(48%); */
+        width: 48%;
+    }
+    59%{
+        /* transform: translateX(59%); */
+        width: 59%;
+    }
+    70%{
+        /* transform: translateX(70%); */
+        width: 70%;
+    }
+    81%{
+        /* transform: translateX(81%); */
+        width: 81%;
+    }
+    90%{
+        /* transform: translateX(90%); */
+        width: 90%;
+    }
+    100%{
+        /* transform: translateX(100%); */
+        width: 100%;
+    }
+}
+/* DEVELOPER TYPEWRITER END HARE */
+/* WEB DEVELOPER TYPEWRITER START HARE */
+#li2::before{
+    content: 'Web Developer.';
+    height: 100%;
+    width: 100%;
+    /* background-color: #0c1821; */
+    border-right: 3px solid var(--colormain);
+    position: absolute;
+    margin: 0px;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    animation: cursor1 0.4s step-end infinite alternate, typing2 5s infinite;
+}
+@keyframes typing2 {
+    0%{
+        /* transform: translateX(-2%); */
+        width: 0%;
+    }
+    9%{
+        /* transform: translateX(9%); */
+        width: 9%;
+    }
+    16%{
+        /* transform: translateX(16%); */
+        width: 16%;
+    }
+    25%{
+        /* transform: translateX(25%); */
+        width: 25%;
+    }
+    30%{
+        /* transform: translateX(30%); */
+        width: 30%;
+    }
+    37%{
+        /* transform: translateX(37%); */
+        width: 37%;
+    }
+    45%{
+        /* transform: translateX(45%); */
+        width: 45%;
+    }
+    53%{
+        /* transform: translateX(53%); */
+        width: 53%;
+    }
+    62%{
+        /* transform: translateX(62%); */
+        width: 62%;
+    }
+    71%{
+        /* transform: translateX(71%); */
+        width: 71%;
+    } 
+    80%{
+        /* transform: translateX(80%); */
+        width: 80%;
+    }
+    87%{
+        /* transform: translateX(87%); */
+        width: 87%;
+    }
+    93%{
+        /* transform: translateX(93%); */
+        width: 93%;
+    }
+    100%{
+        /* transform: translateX(100%); */
+        width: 100%;
+    }
+}
+/* WEB DEVELOPER TYPEWRITER END HARE */
+/* APP DEVELOPER TYPEWRITER START HARE */
+#li3::before{
+    content: 'App Developer.';
+    height: 100%;
+    width: 100%;
+    /* background-color: #0c1821; */
+    border-right: 3px solid var(--colormain);
+    position: absolute;
+    margin: 0px;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    animation: cursor1 0.4s step-end infinite alternate, typing3 5s infinite;
+}
+@keyframes typing3 {
+    0%{
+        /* transform: translateX(-2%); */
+        width: 0%;
+    }
+    6%{
+        /* transform: translateX(6%); */
+        width: 6%;
+    }
+    13%{
+        /* transform: translateX(13%); */
+        width: 13%;
+    }
+    21%{
+        /* transform: translateX(21%); */
+        width: 21%;
+    }
+    26%{
+        /* transform: translateX(26%); */
+        width: 26%;
+    }
+    34%{
+        /* transform: translateX(34%); */
+        width: 34%;
+    }
+    42%{
+        /* transform: translateX(42%); */
+        width: 42%;
+    }
+    50%{
+        /* transform: translateX(50%); */
+        width: 50%;
+    }
+    57%{
+        /* transform: translateX(57%); */
+        width: 57%;
+    }
+    61%{
+        /* transform: translateX(61%); */
+        width: 61%;
+    }
+    70%{
+        /* transform: translateX(70%); */
+        width: 70%;
+    }
+    78%{
+        /* transform: translateX(78%); */
+        width: 78%;
+    }
+    85%{
+        /* transform: translateX(85%); */
+        width: 85%;
+    }
+    91%{
+        /* transform: translateX(91%); */
+        width: 91%;
+    }
+    97%{
+        /* transform: translateX(97%); */
+        width: 97%;
+    }
+}
+/* APP DEVELOPER TYPEWRITER END HARE */
+/* PHOTOGRAPHER TYPEWRITER START HARE */
+#li4::before{
+    content: 'Photographer.';
+    height: 100%;
+    width: 100%;
+    /* background-color: #0c1821; */
+    border-right: 3px solid var(--colormain);
+    position: absolute;
+    margin: 0px;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    animation: cursor1 0.4s step-end infinite alternate, typing4 5s infinite;
+}
+@keyframes typing4 {
+    0%{
+        /* transform: translateX(-2%); */
+        width: 0%;
+    }
+    6%{
+        /* transform: translateX(6%); */
+        width: 6%;
+    }
+    14%{
+        /* transform: translateX(14%); */
+        width: 14%;
+    }
+    23%{
+        /* transform: translateX(23%); */
+        width: 23%;
+    }
+    30%{
+        /* transform: translateX(30%); */
+        width: 30%;
+    }
+    38%{
+        /* transform: translateX(38%); */
+        width: 38%;
+    }
+    45%{
+        /* transform: translateX(45%); */
+        width: 45%;
+    }
+    52%{
+        /* transform: translateX(52%); */
+        width: 52%;
+    }
+    59%{
+        /* transform: translateX(59%); */
+        width: 59%;
+    }
+    67%{
+        /* transform: translateX(67%); */
+        width: 67%;
+    }
+    79%{
+        /* transform: translateX(79%); */
+        width: 79%;
+    }
+    85%{
+        /* transform: translateX(85%); */
+        width: 85%;
+    }
+    92%{
+        /* transform: translateX(92%); */
+        width: 92%;
+    }
+    100%{
+        /* transform: translateX(100%); */
+        width: 100%;
+    }
+}
+/* PHOTOGRAPHER TYPEWRITER END HARE */
+.icon{
+    margin-top: 3vh;
+    background-color: transparent;
+}
+.icon a{
+    background-color: transparent;
+}
+.icon i{
+    color: var(--colormain);
+    transition: all 0.1s linear;
+}
+.icon i:hover{
+    text-shadow: 0 0 20px var(--coloroptional);
+    scale: 1.15;
+    cursor: var(--cursorhand);
+}
+.submitButton{
+    background-color: var(--colormain);
+    color: #0c1821;
+    border-radius: 5px;
+    height: 1.5rem;
+    width: 6rem;
+    cursor: var(--cursorhand);
+    margin-left: 10px;
+    margin-bottom: 3px;
+    transition: all 0.1s linear;
+}
+.submitButton:hover{
+    box-shadow: 0 0 10px var(--coloroptional);
+    scale: 1.05;
+}
+/* BODY MAIN Right STARTS HARE */
+.bodyMainRight{
+    height: 90vh;
+    width: 90vh;
+    border: none;
+    border-radius: var(--pictureborderradious);
+    color: var(--colortext);
+    position: absolute;
+    right: 20px;
+    background-image: linear-gradient(170deg, var(--colortext),var(--colormain));
+    background-color: transparent;
+}
+.bodyMainRight:hover{
+    box-shadow: 0 0 50px var(--colormain);
+    animation: ascale 0.2s linear forwards;
+    z-index: 3;
+    
+}
+@keyframes ascale {
+    from{
+        transform: scale(1);
+    }
+    to{
+        transform: scale(1.01);
+    }
+}
+.bodyMainRight1{
+    height: 100%;
+    width: 100%;
+    border: none;
+    border-radius: var(--pictureborderradious);
+    background-image: url(/assets/WebPhoto/webPhotomain/mohammadAli.png);
+    background-size: cover;
+    background-color: transparent;
+}
+/* BODY MAIN Right ENDS HARE */
+/* BODY ENDS HARE */
