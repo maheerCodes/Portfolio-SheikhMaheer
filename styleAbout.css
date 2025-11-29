@@ -1,0 +1,74 @@
+/* ABOUT SECTION START HARE */
+.About1{
+    height: 135vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: transparent;
+}
+.bodyMainLeft00{
+    height: 90vh;
+    width: 90vh;
+    border: none;
+    border-radius: var(--pictureborderradious);
+    color: var(--colortext);
+    position: absolute;
+    left: 20px;
+    background-image: linear-gradient(-170deg, var(--colortext), var(--colormain));
+    background-color: transparent;
+}
+.bodyMainLeft00:hover{
+    box-shadow: 0 0 50px var(--colormain);
+    animation: ascale 0.2s linear forwards;
+    z-index: 3;
+}
+.bodyMainLeft11{
+    height: 100%;
+    width: 100%;
+    border: none;
+    border-radius: var(--pictureborderradious);
+    background-image: url(/assets/WebPhoto/webPhotomain/mohammadAliCopy.png);
+    background-size: cover;
+    background-color: transparent;
+}
+.About2{
+    height: 100vh;
+    max-width: 1000px;
+    background-color: transparent;
+    border: none;
+    color: var(--colortext);
+    position: absolute;
+    right: 25px;
+    z-index: 2;
+    text-align: right;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.About2:hover{
+    text-shadow: 0 0 5px #000000;
+    transform: scaleY(1.03);
+    /* right: 75px; */
+    position: absolute;
+    transition: all 0.1s ease-in;
+    
+}
+.About2 div{
+    background-color: transparent;
+    max-width: 1000px;
+}
+h3{
+    background-color: transparent;
+}
+.About2 span{
+    background-color: transparent;
+    text-decoration: underline;
+    font-weight: 550;
+}
+.About2 h1{
+    color: var(--colormain);
+    font-weight: 700;
+    background-color: transparent;
+}
+/* ABOUT SECTION END HARE */

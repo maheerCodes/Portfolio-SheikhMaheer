@@ -1,0 +1,62 @@
+:root{
+    --colormain: #ef8354;
+    --coloroptional: #ff6a2a;
+    --colortext: #ccc9dc;
+    --pictureborderradious: 65% 35% 53% 47% / 33% 27% 73% 67% ;
+    --cursornormal: url(/assets/customItem/customMouse.svg) 12 12, auto;
+    --cursorhand: url(/assets/customItem/handPointer.svg) 12 12, auto;
+    --cursortext: url(/assets/customItem/textMouse.svg) 12 12, auto;
+    --paragrraphselaction:  rgba(239, 131, 84, 0.9);
+}
+*{
+    margin: 0px;
+    border: 0px;
+    padding: 0px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: #ccc9dc;
+    scroll-behavior: smooth;
+    text-decoration: none;
+    box-sizing: border-box;
+    background-color: #0c1821;
+    
+}
+html, head, body{
+    cursor: var(--cursornormal);
+}
+.input1, .input2, .input3, .input4, textarea{
+    cursor: var(--cursortext);
+}
+input{
+    cursor: var(--cursornormal);
+    z-index: 999;
+}
+/* CUSTOM SCROLLBAR */
+::-webkit-scrollbar{
+    width: 1vh;
+}
+
+::-webkit-scrollbar-track{
+    background-color: var(--colortext);
+    border-radius: 12px;
+}
+
+::-webkit-scrollbar-thumb{
+    background-color: var(--colormain);
+    border-radius: 12px;
+    transition: background-color 0.3 ease, border-radius 0.3 ease;
+}
+
+::-webkit-scrollbar-thumb:hover{
+    background-color: var(--coloroptional);
+    margin: 5px solid transparent;
+}
+/* CUSTOM SCROLLBAR END*/
+/* PARAGRRAPH SELACTION START*/
+/* Copy text background start*/
+::selection {
+    background-color: var(--paragrraphselaction);
+    color: var(--colortext);
+    text-shadow: none;
+}
+/* Copy text background end*/
+/* PARAGRRAPH SELACTION END*/

@@ -1,0 +1,94 @@
+@media screen and (max-width: 1450px) {
+    .project1, .project2, .project3, .project4{
+        height: 15rem;
+        width: 31.875rem;
+    }
+    .project1, .project3{
+        margin-left: 10rem;
+    }
+}
+@media screen and (max-width: 1330px) {
+    /*Home starts*/
+    .bodyMainRight{
+        height: 67.5vh;
+        width: 67.5vh;
+    }
+    /*Home ends*/
+    /*About starts*/
+    .bodyMainLeft00{
+        height: 67.5vh;
+        width: 67.5vh;
+    }  
+    /*About ends*/
+    /*Services starts*/
+    .Services2 {
+        margin-right: 5rem;
+    }
+    .Services2text {
+        margin-left: 5rem;
+        margin-right: 0;
+    }
+    /*Services ends*/
+}
+@media screen and (max-width: 1230px) {
+    /*Services starts*/
+    .Services2 {
+        margin-right: 0.3rem;
+    }
+    .Services2text {
+        margin-left: 0.3rem;
+    }
+    /*Services ends*/
+}
+@media screen and (max-width: 1180px) {
+    /*Home starts*/
+    .bodyMainRight{
+        height: 50.625vh;
+        width: 50.625vh;
+    }
+        /*Home ends*/
+        /*About starts*/
+    .bodyMainLeft00{
+        height: 50.625vh;
+        width: 50.625vh;
+    }
+    /*About ends*/
+    /*My work starts*/
+    .MyWorkMain{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+        .project1, .project2, .project3, .project4{
+        height: 20rem;
+        width: 42.5rem;
+        margin: 1rem;
+    }
+    /*My work end*/
+}
+@media screen and (max-width: 1000px) {    
+    /*Home starts*/
+    .scrollButton{
+        height: 0;
+        width: 0;
+        display: none;
+    }
+    .mobileMax1000px{
+        height: 4rem;
+        width: 4rem;
+        background-color: transparent;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+    /*Home ends*/
+    /*Services starts*/
+    .divpic{
+        height: 18.75rem;
+        width: 30rem;
+        background-color: transparent;
+    }
+    /*Services ends*/
+} 
