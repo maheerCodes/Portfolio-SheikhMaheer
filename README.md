@@ -19,4 +19,4 @@ What this means:
 - You may freely use, modify, and redistribute the code (HTML/CSS) under the MIT terms.
 - You may NOT reuse or redistribute images, logos, or the written content located in `assets/` unless you get written permission from the copyright holder.
 
-To request reuse permission for any asset, contact: your-email@example.com
+To request reuse permission for any asset, contact: sheikh.maheer@outlook.com
