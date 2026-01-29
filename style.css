@@ -1,8 +1,7 @@
-<!--
-  Copyright (c) 2025 SheikhMaheer
-  Code in this file is licensed under the MIT License. See the LICENSE file in the project root.
-  Note: Images and textual assets inside the /assets/ folder are NOT covered by this license.
--->
+/* Copyright (c) 2025 SheikhMaheer
+   Code in this file is licensed under the MIT License. See the LICENSE file in the project root.
+   Note: Images and textual assets inside the /assets/ folder are NOT covered by this license.
+*/
 
 
 :root{
@@ -92,12 +91,13 @@ input{
 ::-webkit-scrollbar-thumb{
     background-color: var(--colormain);
     border-radius: 12px;
-    transition: background-color 0.3 ease, border-radius 0.3 ease;
+    transition: background-color 0.3s ease, border-radius 0.3s ease;
 }
 
 ::-webkit-scrollbar-thumb:hover{
     background-color: var(--coloroptional);
-    margin: 5px solid transparent;
+    /* if you meant a border: */
+    border: 5px solid transparent;
 }
 
 
@@ -928,7 +928,7 @@ p{
 
 .icon i:hover{
     text-shadow: 0 0 20px var(--coloroptional);
-    scale: 1.15;
+    transform: scale(1.15);
     cursor: var(--cursorhand);
 }
 
