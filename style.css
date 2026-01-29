@@ -372,16 +372,16 @@ section{
 
 .bodyMain{
     margin-top: 4rem;
-    /* original height removed to let content define height for responsiveness */
     width: 100%;
-    background-color: transparent;
     color: var(--colortext);
     display: flex;
     justify-content: space-between;
     align-items: center;
     gap: 2rem;
-    padding: 3rem 2rem; /* adjust as needed */
-    position: relative; /* IMPORTANT for absolute children fallback */
+    padding: 3rem 2rem;
+    position: relative; /* IMPORTANT: makes absolute children position relative to this container */
+    /* remove fixed height so content can flow naturally */
+    /* height: 102vh;  <-- remove or comment out */
 }
 
 
@@ -391,17 +391,11 @@ section{
 
 
 .bodyMainLeft{
-    /* height: 100vh; */
-    width: clamp(300px, 48%, 700px);
-    background-color: transparent;
-    border: none;
-    color: var(--colortext);
     position: relative;
-    left: 0;
     z-index: 2;
+    width: clamp(320px, 48%, 720px); /* responsive width */
     display: block;
-    justify-content: left;
-    align-items: center;
+    /* remove left:25px and absolute positioning */
 }
 
 .bodyMainLeft1{
@@ -964,26 +958,25 @@ p{
 
 /* BODY MAIN Right STARTS HARE */
 .bodyMainRight{
-    /* make it responsive and keep decorative blob */
     position: relative;
     width: clamp(220px, 40%, 520px);
     height: clamp(260px, 60vh, 680px);
     border: none;
-    /* use your variable or direct value for the blob radius */
-    border-radius: var(--pictureborderradious); /* or: 50% 35% 45% 55% / 60% 40% 60% 40% */
+    border-radius: var(--pictureborderradious);
     overflow: hidden;
     display: flex;
     align-items: center;
     justify-content: center;
     background-color: transparent;
-    box-shadow: 0 6px 30px rgba(0,0,0,0.6);
+    box-shadow: 0 8px 40px rgba(0,0,0,0.45);
+    transition: transform 0.25s ease, box-shadow 0.25s ease;
 }
 
 .bodyMainRight:hover{
     transform: translateY(-6px) scale(1.02);
-    transition: transform 0.25s ease;
     z-index: 3;
 }
+
 
 @keyframes ascale {
     from{
@@ -998,9 +991,9 @@ p{
     width: 100%;
     height: 100%;
     border-radius: inherit;
-    background-image: url(https://i.postimg.cc/wxJ5JS8M/mohammad-Ali.png); /* verify URL */
+    background-image: url(https://i.postimg.cc/wxJ5JS8M/mohammad-Ali.png); /* confirm URL is accessible */
     background-size: cover;
-    background-position: center;
+    background-position: center right; /* adjust to show subject better */
     background-repeat: no-repeat;
 }
 
@@ -1863,6 +1856,22 @@ footer{
         width: 30rem;
         background-color: transparent;
     }
-
+@media (max-width: 900px){
+    .bodyMain{
+        flex-direction: column-reverse;
+        align-items: flex-start;
+        padding: 2rem;
+        gap: 1.5rem;
+    }
+    .bodyMainLeft{
+        width: 100%;
+    }
+    .bodyMainRight{
+        width: 100%;
+        height: min(360px, 50vh);
+        border-radius: 40% 60% 60% 40% / 50% 40% 60% 50%; /* simpler blob on small screens */
+    }
+    .bodyMainRight:hover{ transform: none; } /* avoid hover transform on touch devices */
+}
     /*Services ends*/
 } 
