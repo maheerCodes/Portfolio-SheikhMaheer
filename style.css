@@ -96,7 +96,6 @@ input{
 
 ::-webkit-scrollbar-thumb:hover{
     background-color: var(--coloroptional);
-    /* if you meant a border: */
     border: 5px solid transparent;
 }
 
@@ -379,9 +378,7 @@ section{
     align-items: center;
     gap: 2rem;
     padding: 3rem 2rem;
-    position: relative; /* IMPORTANT: makes absolute children position relative to this container */
-    /* remove fixed height so content can flow naturally */
-    /* height: 102vh;  <-- remove or comment out */
+    position: relative;
 }
 
 
@@ -393,9 +390,8 @@ section{
 .bodyMainLeft{
     position: relative;
     z-index: 2;
-    width: clamp(320px, 48%, 720px); /* responsive width */
+    width: clamp(320px, 48%, 720px);
     display: block;
-    /* remove left:25px and absolute positioning */
 }
 
 .bodyMainLeft1{
@@ -991,9 +987,9 @@ p{
     width: 100%;
     height: 100%;
     border-radius: inherit;
-    background-image: url(https://i.postimg.cc/wxJ5JS8M/mohammad-Ali.png); /* confirm URL is accessible */
+    background-image: url(https://i.postimg.cc/wxJ5JS8M/mohammad-Ali.png);
     background-size: cover;
-    background-position: center right; /* adjust to show subject better */
+    background-position: center right;
     background-repeat: no-repeat;
 }
 
@@ -1869,9 +1865,9 @@ footer{
     .bodyMainRight{
         width: 100%;
         height: min(360px, 50vh);
-        border-radius: 40% 60% 60% 40% / 50% 40% 60% 50%; /* simpler blob on small screens */
+        border-radius: 40% 60% 60% 40% / 50% 40% 60% 50%;
     }
-    .bodyMainRight:hover{ transform: none; } /* avoid hover transform on touch devices */
+    .bodyMainRight:hover{ transform: none; }
 }
     /*Services ends*/
 } 
