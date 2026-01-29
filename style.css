@@ -372,13 +372,16 @@ section{
 
 .bodyMain{
     margin-top: 4rem;
-    height: 102vh;
+    /* original height removed to let content define height for responsiveness */
     width: 100%;
     background-color: transparent;
     color: var(--colortext);
     display: flex;
     justify-content: space-between;
     align-items: center;
+    gap: 2rem;
+    padding: 3rem 2rem; /* adjust as needed */
+    position: relative; /* IMPORTANT for absolute children fallback */
 }
 
 
@@ -389,14 +392,14 @@ section{
 
 .bodyMainLeft{
     /* height: 100vh; */
-    max-width: 1000px;
+    width: clamp(300px, 48%, 700px);
     background-color: transparent;
     border: none;
     color: var(--colortext);
-    position: absolute;
-    left: 25px;
+    position: relative;
+    left: 0;
     z-index: 2;
-    display: flex;
+    display: block;
     justify-content: left;
     align-items: center;
 }
@@ -961,22 +964,25 @@ p{
 
 /* BODY MAIN Right STARTS HARE */
 .bodyMainRight{
-    height: 90vh;
-    width: 90vh;
+    /* make it responsive and keep decorative blob */
+    position: relative;
+    width: clamp(220px, 40%, 520px);
+    height: clamp(260px, 60vh, 680px);
     border: none;
-    border-radius: var(--pictureborderradious);
-    color: var(--colortext);
-    position: absolute;
-    right: 20px;
-    background-image: linear-gradient(170deg, var(--colortext),var(--colormain));
+    /* use your variable or direct value for the blob radius */
+    border-radius: var(--pictureborderradious); /* or: 50% 35% 45% 55% / 60% 40% 60% 40% */
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
     background-color: transparent;
+    box-shadow: 0 6px 30px rgba(0,0,0,0.6);
 }
 
 .bodyMainRight:hover{
-    box-shadow: 0 0 50px var(--colormain);
-    animation: ascale 0.2s linear forwards;
+    transform: translateY(-6px) scale(1.02);
+    transition: transform 0.25s ease;
     z-index: 3;
-    
 }
 
 @keyframes ascale {
@@ -989,13 +995,13 @@ p{
 }
 
 .bodyMainRight1{
-    height: 100%;
     width: 100%;
-    border: none;
-    border-radius: var(--pictureborderradious);
-    background-image: url(https://i.postimg.cc/wxJ5JS8M/mohammad-Ali.png);
+    height: 100%;
+    border-radius: inherit;
+    background-image: url(https://i.postimg.cc/wxJ5JS8M/mohammad-Ali.png); /* verify URL */
     background-size: cover;
-    background-color: transparent;
+    background-position: center;
+    background-repeat: no-repeat;
 }
 
 
