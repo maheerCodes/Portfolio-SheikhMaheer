@@ -1426,13 +1426,22 @@ h3{
     border-radius: 1rem;
     margin: 1rem;
     padding: 0;
-    background-image: url(assets/WebPhoto/webPhotomain/freepik__expand__49141.jpg);
     background-size: cover;
+}
+
+.project1{
+    background-image: url(assets/WebPhoto/webPhotomain/Gemini_Generated_Image_abot35abot35abot.png);
+}
+
+.project2, .project3, .project4{
+   background-image: url(assets/WebPhoto/webPhotomain/freepik__expand__49141.jpg);
 }
 
 .project1, .project3{
     margin-left: 2rem;
 }
+
+
 
 
 
