@@ -350,8 +350,8 @@ CUSTOM SCROLLBAR
 
 
 main{
-    height: 130vh;
-    width: 102vw;
+    height: 102vh;
+    width: 100vw;
     background-color: #0c1821;
     color: var(--colortext);
     padding: 20px;
@@ -372,9 +372,9 @@ section{
 }
 
 main section .bodyMain{
-    height: 130vh;
-    width: 102vw;
-    margin-top: 8rem;
+    /* height: 130vh;
+    width: 102vw; */
+    margin-top: 4rem;
     color: var(--colortext);
     display: flex;
     justify-content: space-between;
