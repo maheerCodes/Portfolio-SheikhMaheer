@@ -371,8 +371,6 @@ section{
     border: none;
 
 .bodyMain{
-    height: 102vh;
-    width: 100vw;
     margin-top: 4rem;
     color: var(--colortext);
     display: flex;
