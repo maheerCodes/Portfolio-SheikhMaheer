@@ -370,8 +370,9 @@ section{
 }
 
 .bodyMain{
+    height: 102vh;
+    width: 102vw;
     margin-top: 4rem;
-    width: 100%;
     color: var(--colortext);
     display: flex;
     justify-content: space-between;
