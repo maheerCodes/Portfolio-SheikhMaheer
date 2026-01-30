@@ -955,8 +955,8 @@ p{
 /* BODY MAIN Right STARTS HARE */
 .bodyMainRight{
     position: relative;
-    width: clamp(220px, 40%, 520px);
-    height: clamp(260px, 60vh, 680px);
+    height: 90vh;
+    width: 90vh;
     border: none;
     border-radius: var(--pictureborderradious);
     overflow: hidden;
