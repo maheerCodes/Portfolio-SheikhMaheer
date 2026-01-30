@@ -350,6 +350,8 @@ CUSTOM SCROLLBAR
 
 
 main{
+    height: 130vh;
+    width: 102vw;
     background-color: #0c1821;
     color: var(--colortext);
     padding: 20px;
