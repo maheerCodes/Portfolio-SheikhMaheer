@@ -7,9 +7,9 @@
     --coloroptional: #ff6a2a;
     --colortext: #ccc9dc;
     --pictureborderradious: 65% 35% 53% 47% / 33% 27% 73% 67% ;
-    --cursornormal: url(https://i.postimg.cc/wTnTZB7x/custom-Mouse.png) 12 12, auto;
-    --cursorhand: url(https://i.postimg.cc/XJNVdGDH/hand-Pointer.png) 12 12, auto;
-    --cursortext: url(https://i.postimg.cc/4d8X5fD7/text-Mouse.png) 12 12, auto;
+    --cursornormal: url(assets/customItem/customMouse.svg) 12 12, auto;
+    --cursorhand: url(assets/customItem/handPointer.svg) 12 12, auto;
+    --cursortext: url(assets/customItem/textMouse.svgd) 12 12, auto;
     --paragrraphselaction:  rgba(239, 131, 84, 0.9);
 }
 
@@ -990,7 +990,7 @@ p{
     width: 100%;
     border: none;
     border-radius: var(--pictureborderradious);
-    background-image: url(https://i.postimg.cc/wxJ5JS8M/mohammad-Ali.png);
+    background-image: url(assets/WebPhoto/webPhotomain/mohammadAli.png);
     background-size: cover;
     background-color: transparent;
 }
@@ -1051,7 +1051,7 @@ p{
     width: 100%;
     border: none;
     border-radius: var(--pictureborderradious);
-    background-image: url(https://i.postimg.cc/rm5d020q/mohammad-Ali-Copy.png);
+    background-image: url(assets/WebPhoto/webPhotomain/mohammadAliCopy.png);
     background-size: cover;
     background-color: transparent;
 }
@@ -1200,22 +1200,22 @@ h3{
 }
 
 .pic1{
-    background-image: url(https://i.postimg.cc/x10Tgbk8/Developer.png);
+    background-image: url(assets/WebPhoto/webPhotomain/Developer.jpg);
     /* transform: rotate(3deg); */
 }
 
 .pic2{
-    background-image: url(https://i.postimg.cc/FRc4h9fP/web-Development.jpg);
+    background-image: url(assets/WebPhoto/webPhotomain/webDevelopment.jpg);
     /* transform: rotate(-3deg); */
 }
 
 .pic3{
-    background-image: url(https://i.postimg.cc/SN4yNzf7/app-Development.jpg);
+    background-image: url(assets/WebPhoto/webPhotomain/appDevelopment.jpg);
     /* transform: rotate(3deg); */
 }
 
 .pic4{
-    background-image: url(https://i.postimg.cc/NjJY4Cqx/photographer.jpg);
+    background-image: url(assets/WebPhoto/webPhotomain/photographer.jpg);
     /* transform: rotate(-3deg); */
 }
 
@@ -1426,7 +1426,7 @@ h3{
     border-radius: 1rem;
     margin: 1rem;
     padding: 0;
-    background-image: url(https://i.postimg.cc/8CRDLpHy/freepik-expand-49141.png);
+    background-image: url(assets/WebPhoto/webPhotomain/freepik__expand__49141.jpg);
     background-size: cover;
 }
 
