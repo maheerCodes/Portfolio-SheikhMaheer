@@ -371,7 +371,7 @@ section{
     border: none;
 }
 
-.bodyMain{
+main section .bodyMain{
     height: 130vh;
     width: 102vw;
     margin-top: 8rem;
