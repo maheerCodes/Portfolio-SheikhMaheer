@@ -2,8 +2,6 @@
    Code in this file is licensed under the MIT License. See the LICENSE file in the project root.
    Note: Images and textual assets inside the /assets/ folder are NOT covered by this license.
 */
-
-
 :root{
     --colormain: #ef8354;
     --coloroptional: #ff6a2a;
@@ -91,12 +89,12 @@ input{
 ::-webkit-scrollbar-thumb{
     background-color: var(--colormain);
     border-radius: 12px;
-    transition: background-color 0.3s ease, border-radius 0.3s ease;
+    transition: background-color 0.3 ease, border-radius 0.3 ease;
 }
 
 ::-webkit-scrollbar-thumb:hover{
     background-color: var(--coloroptional);
-    border: 5px solid transparent;
+    margin: 5px solid transparent;
 }
 
 
@@ -350,8 +348,6 @@ CUSTOM SCROLLBAR
 
 
 main{
-    /* height: 102vh;
-    width: 100vw; */
     background-color: #0c1821;
     color: var(--colortext);
     padding: 20px;
@@ -369,16 +365,17 @@ section{
     background-color: #000000;
     height: 1.5px;
     border: none;
+}
 
 .bodyMain{
     margin-top: 4rem;
+    height: 102vh;
+    width: 100%;
+    background-color: transparent;
     color: var(--colortext);
     display: flex;
     justify-content: space-between;
     align-items: center;
-    gap: 2rem;
-    padding: 3rem 2rem;
-    position: relative;
 }
 
 
@@ -388,10 +385,17 @@ section{
 
 
 .bodyMainLeft{
-    position: relative;
+    /* height: 100vh; */
+    max-width: 1000px;
+    background-color: transparent;
+    border: none;
+    color: var(--colortext);
+    position: absolute;
+    left: 25px;
     z-index: 2;
-    width: clamp(320px, 48%, 720px);
-    display: block;
+    display: flex;
+    justify-content: left;
+    align-items: center;
 }
 
 .bodyMainLeft1{
@@ -921,7 +925,7 @@ p{
 
 .icon i:hover{
     text-shadow: 0 0 20px var(--coloroptional);
-    transform: scale(1.15);
+    scale: 1.15;
     cursor: var(--cursorhand);
 }
 
@@ -953,19 +957,6 @@ p{
 
 
 /* BODY MAIN Right STARTS HARE */
-
-/*.bodyMainLeft00{
-    height: 90vh;
-    width: 90vh;
-    border: none;
-    border-radius: var(--pictureborderradious);
-    color: var(--colortext);
-    position: absolute;
-    left: 20px;
-    background-image: linear-gradient(-170deg, var(--colortext), var(--colormain));
-    background-color: transparent;
-}*/
-
 .bodyMainRight{
     height: 90vh;
     width: 90vh;
@@ -973,23 +964,17 @@ p{
     border-radius: var(--pictureborderradious);
     color: var(--colortext);
     position: absolute;
-    Right: 20px;
-    background-image: linear-gradient(-170deg, var(--colortext), var(--colormain));
+    right: 20px;
+    background-image: linear-gradient(170deg, var(--colortext),var(--colormain));
     background-color: transparent;
 }
-
-/*.bodyMainLeft00:hover{
-    box-shadow: 0 0 50px var(--colormain);
-    animation: ascale 0.2s linear forwards;
-    z-index: 3;
-}*/
 
 .bodyMainRight:hover{
     box-shadow: 0 0 50px var(--colormain);
     animation: ascale 0.2s linear forwards;
     z-index: 3;
+    
 }
-
 
 @keyframes ascale {
     from{
@@ -1000,19 +985,9 @@ p{
     }
 }
 
-/*.bodyMainLeft11{
-    height: 100%;
-    width: 100%;
-    border: none;
-    border-radius: var(--pictureborderradious);
-    background-image: url(https://i.postimg.cc/rm5d020q/mohammad-Ali-Copy.png);
-    background-size: cover;
-    background-color: transparent;
-}*/
-
 .bodyMainRight1{
-    width: 100%;
     height: 100%;
+    width: 100%;
     border: none;
     border-radius: var(--pictureborderradious);
     background-image: url(https://i.postimg.cc/wxJ5JS8M/mohammad-Ali.png);
@@ -1879,22 +1854,6 @@ footer{
         width: 30rem;
         background-color: transparent;
     }
-@media (max-width: 900px){
-    .bodyMain{
-        flex-direction: column-reverse;
-        align-items: flex-start;
-        padding: 2rem;
-        gap: 1.5rem;
-    }
-    .bodyMainLeft{
-        width: 100%;
-    }
-    .bodyMainRight{
-        width: 100%;
-        height: min(360px, 50vh);
-        border-radius: 40% 60% 60% 40% / 50% 40% 60% 50%;
-    }
-    .bodyMainRight:hover{ transform: none; }
-}
+
     /*Services ends*/
 } 
