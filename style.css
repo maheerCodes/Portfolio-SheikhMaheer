@@ -953,23 +953,40 @@ p{
 
 
 /* BODY MAIN Right STARTS HARE */
-.bodyMainRight{
-    position: relative;
+
+/*.bodyMainLeft00{
     height: 90vh;
     width: 90vh;
     border: none;
     border-radius: var(--pictureborderradious);
-    overflow: hidden;
-    display: flex;
-    align-items: center;
-    justify-content: center;
+    color: var(--colortext);
+    position: absolute;
+    left: 20px;
+    background-image: linear-gradient(-170deg, var(--colortext), var(--colormain));
     background-color: transparent;
-    box-shadow: 0 8px 40px rgba(0,0,0,0.45);
-    transition: transform 0.25s ease, box-shadow 0.25s ease;
+}*/
+
+.bodyMainRight{
+    height: 90vh;
+    width: 90vh;
+    border: none;
+    border-radius: var(--pictureborderradious);
+    color: var(--colortext);
+    position: absolute;
+    Right: 20px;
+    background-image: linear-gradient(-170deg, var(--colortext), var(--colormain));
+    background-color: transparent;
 }
 
+/*.bodyMainLeft00:hover{
+    box-shadow: 0 0 50px var(--colormain);
+    animation: ascale 0.2s linear forwards;
+    z-index: 3;
+}*/
+
 .bodyMainRight:hover{
-    transform: translateY(-6px) scale(1.02);
+    box-shadow: 0 0 50px var(--colormain);
+    animation: ascale 0.2s linear forwards;
     z-index: 3;
 }
 
@@ -983,14 +1000,24 @@ p{
     }
 }
 
+/*.bodyMainLeft11{
+    height: 100%;
+    width: 100%;
+    border: none;
+    border-radius: var(--pictureborderradious);
+    background-image: url(https://i.postimg.cc/rm5d020q/mohammad-Ali-Copy.png);
+    background-size: cover;
+    background-color: transparent;
+}*/
+
 .bodyMainRight1{
     width: 100%;
     height: 100%;
-    border-radius: inherit;
+    border: none;
+    border-radius: var(--pictureborderradious);
     background-image: url(https://i.postimg.cc/wxJ5JS8M/mohammad-Ali.png);
     background-size: cover;
-    background-position: center right;
-    background-repeat: no-repeat;
+    background-color: transparent;
 }
 
 
