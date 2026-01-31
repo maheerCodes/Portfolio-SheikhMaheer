@@ -1427,6 +1427,7 @@ h3{
     margin: 1rem;
     padding: 0;
     background-size: cover;
+    cursor: var(--cursorhand);
 }
 
 .project1{
