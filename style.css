@@ -1419,7 +1419,7 @@ h3{
     overflow: hidden;
 }
 
-.MyWorkMain a{
+#a-project{
     cursor: var(--cursorhand);
 }
 
