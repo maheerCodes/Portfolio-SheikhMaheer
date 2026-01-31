@@ -1419,6 +1419,10 @@ h3{
     overflow: hidden;
 }
 
+.MyWorkMain a{
+    cursor: var(--cursorhand);
+}
+
 .project1, .project2, .project3, .project4{
     height: 20rem;
     width: 42.5rem;
@@ -1427,7 +1431,6 @@ h3{
     margin: 1rem;
     padding: 0;
     background-size: cover;
-    cursor: var(--cursorhand);
 }
 
 .project1{
