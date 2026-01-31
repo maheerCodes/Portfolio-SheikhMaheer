@@ -3,8 +3,3 @@
   Code in this file is licensed under the MIT License. See the LICENSE file in the project root.
   Note: Images and textual assets inside the /assets/ folder are NOT covered by this license.
 */
-
-const UTTT = document.getElementById('unique-tic-tac-toe');
-UTTT.addEventListener("click", (event) => {
-  console.log("UTTT opened!");
-});
